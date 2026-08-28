@@ -1,0 +1,47 @@
+<Application x:Class="PerformanceMonitor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <SolidColorBrush x:Key="WindowBrush" Color="#101318" />
+        <SolidColorBrush x:Key="PanelBrush" Color="#191D24" />
+        <SolidColorBrush x:Key="PanelBorderBrush" Color="#2B3039" />
+        <SolidColorBrush x:Key="PrimaryTextBrush" Color="#F3F5F7" />
+        <SolidColorBrush x:Key="SecondaryTextBrush" Color="#9EA7B3" />
+        <SolidColorBrush x:Key="AccentBrush" Color="#68A9FF" />
+        <SolidColorBrush x:Key="TrackBrush" Color="#2A3039" />
+        <SolidColorBrush x:Key="OnlineBrush" Color="#61C995" />
+        <SolidColorBrush x:Key="OfflineBrush" Color="#E37777" />
+
+        <Style TargetType="Window">
+            <Setter Property="Background" Value="{StaticResource WindowBrush}" />
+            <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}" />
+            <Setter Property="Icon" Value="pack://application:,,,/Assets/PerformanceMonitor.ico" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="TextOptions.TextFormattingMode" Value="Display" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#242A33" />
+            <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}" />
+            <Setter Property="BorderBrush" Value="#39414C" />
+            <Setter Property="Padding" Value="16,8" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#12161C" />
+            <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}" />
+            <Setter Property="BorderBrush" Value="#39414C" />
+            <Setter Property="Padding" Value="8,6" />
+            <Setter Property="CaretBrush" Value="White" />
+        </Style>
+
+        <Style TargetType="ProgressBar">
+            <Setter Property="Height" Value="5" />
+            <Setter Property="Foreground" Value="{StaticResource AccentBrush}" />
+            <Setter Property="Background" Value="{StaticResource TrackBrush}" />
+            <Setter Property="BorderThickness" Value="0" />
+        </Style>
+    </Application.Resources>
+</Application>
