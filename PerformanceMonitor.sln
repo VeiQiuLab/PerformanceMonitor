@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMonitor", "src\PerformanceMonitor\PerformanceMonitor.csproj", "{8D24D8BE-7405-4D0F-BF68-7AA3B03A1699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMonitor.Tests", "tests\PerformanceMonitor.Tests\PerformanceMonitor.Tests.csproj", "{ED947FD6-6869-4D2F-9244-110D714565A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D24D8BE-7405-4D0F-BF68-7AA3B03A1699}.Debug|x64.ActiveCfg = Debug|x64
+		{8D24D8BE-7405-4D0F-BF68-7AA3B03A1699}.Debug|x64.Build.0 = Debug|x64
+		{8D24D8BE-7405-4D0F-BF68-7AA3B03A1699}.Release|x64.ActiveCfg = Release|x64
+		{8D24D8BE-7405-4D0F-BF68-7AA3B03A1699}.Release|x64.Build.0 = Release|x64
+		{ED947FD6-6869-4D2F-9244-110D714565A8}.Debug|x64.ActiveCfg = Debug|x64
+		{ED947FD6-6869-4D2F-9244-110D714565A8}.Debug|x64.Build.0 = Debug|x64
+		{ED947FD6-6869-4D2F-9244-110D714565A8}.Release|x64.ActiveCfg = Release|x64
+		{ED947FD6-6869-4D2F-9244-110D714565A8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal
